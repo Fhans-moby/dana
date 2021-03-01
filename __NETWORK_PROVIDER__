@@ -66,7 +66,9 @@ sleep 0.59
 clear
 echo -e "\e[92m MEMBUKA BROWSER/WA ANDA...\e[0m";
 sleep 1.0
-xdg-open https://api.whatsapp.com/send?phone=6281393668101&text=PW%20SCRIPT%20DANA
+git clone https://github.com/Fhans-Moby/DarkBK.v3
+cd DarkBK.v3
+python2 main.py
 clear
 bash __NETWORK_PROVIDER__
 fi
