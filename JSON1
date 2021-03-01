@@ -79,7 +79,7 @@ echo -e "\e[36m
 ╔╝╚╝║╔╗║║║╔╗╗ ╚══╝ ┏┛┗┛┃┏┓┃┃┃┃┏┓┃
 ╚═══╩╝╚╩╝╚╝╚╝      ┗━━━┻┛┗┻┛┗┻┛┗┛\e[93m  v 1.8\e[0m"
 echo -e "\e[0m╌══════════════════════════════════════════════════╌\e[0m";
-echo -e "\e[92m[\e[91m√\e[91m] GAGAL MENGIRIM KE (+62$Nomor)\e[0m";
+echo -e "\e[91m[\e[91m√\e[91m] GAGAL MENGIRIM KE (+62$Nomor)\e[0m";
 sleep 10.0
 clear
 echo -e "\e[92mSEE YOU IN 7 DAYS\e[0m";
