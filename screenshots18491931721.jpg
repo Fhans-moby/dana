@@ -1,0 +1,126 @@
+# INI CUMA BANNER FOTO LAMBANG SCRIPT NYA GK USAH NYARI NYARI CODE!!
+
+#Data={'hanscker3file}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+clear
+sleep 1.0
+echo -e "\e[36m
+╔═══╗    ╔╗        ┏━━━┓
+╚╗╔╗║    ║║        ┗┓┏┓┃
+ ║║║╠══╦═╣║╔╗       ┃┃┃┣━━┳━━┏━━┓
+ ║║║║╔╗║╔╣╚╝╝ ╔══╗  ┃┃┃┃┏┓┃┏┓┫┏┓┃
+╔╝╚╝║╔╗║║║╔╗╗ ╚══╝ ┏┛┗┛┃┏┓┃┃┃┃┏┓┃
+╚═══╩╝╚╩╝╚╝╚╝      ┗━━━┻┛┗┻┛┗┻┛┗┛\e[93m  v 1.8\e[0m";
+echo -e "\e[0m
+╔══════════════════════════════════════════════════╗
+║\e[91m   Author\e[0m :\e[92m Fhans Moby\e[0m                            ║
+║\e[91m   Rules\e[0m  :\e[92m No Recode , hargai yang buat\e[0m          ║
+║\e[91m   Github\e[0m :\e[92m https://github.com/Fhans-Moby/Dana\e[0m    ║
+╠══════════════════════════════════════════════════╝\e[0m";
+echo -e "\e[0m║\e[33m[\e[91m1\e[33m]\e[36m ISI SALDO\e[0m";
+echo -e "\e[0m║\e[33m[\e[91m2\e[33m]\e[36m KUPON GRATIS\e[0m";
+echo -e "\e[0m║\e[33m[\e[91m3\e[33m]\e[31m EXIT\e[0m";
+xdg-open https://github.com/Fhans-Moby/
+read -p '╚══════D ' menu;
+#
+if [ "${menu}" = "1" ]
+then
+clear
+bash JSON1
+fi
+if [ "${menu}" = "2" ]
+then
+clear
+bash JSON2
+fi
+if [ "${menu}" = "3" ]
+then
+clear
+echo -e "\e[92m[\e[91m↺\e[92m]\e[36m SEDANG KEMBALI KE HALAMAN UTAMA.\e[0m";
+sleep 0.59
+clear
+echo -e "\e[92m[\e[91m↺\e[92m]\e[36m SEDANG KEMBALI KE HALAMAN UTAMA..\e[0m";
+sleep 0.59
+clear
+echo -e "\e[92m[\e[91m↺\e[92m]\e[36m SEDANG KEMBALI KE HALAMAN UTAMA...\e[0m";
+exit
+logout
+	
+clear && login
+fi
